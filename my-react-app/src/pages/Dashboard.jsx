@@ -39,17 +39,17 @@ const Dashboard = () => {
                         </a>
                         
                         {/* Unhighlighted Links */}
-                        <a href="#" className="nav-item">description</a>
                         <a href="#" className="nav-item">All Notes</a>
-                        <a href="#" className="nav-item">book</a>
-                        <a href="#" className="nav-item">Notebooks</a>
+                        <a href="#" className="nav-item">categarize</a>
+                        <a href="#" className="nav-item">Analytics</a>
+                        {/*<a href="#" className="nav-item">Notebooks</a>*/}
                     </nav>
                 </aside>
 
                 {/* MAIN CONTENT AREA */}
                 <main className="content-area">
                     
-                    <h1 className="welcome-message">Welcome back, Kevin!</h1>
+                    {/*<h1 className="welcome-message">Welcome back, Kevin!</h1>*/}
 
                     {/* QUICK THOUGHT CARD */}
                     <section className="quick-thought-card">
@@ -66,18 +66,7 @@ const Dashboard = () => {
                         </div>
                     </section>
 
-                    {/* RECENT NOTES SECTION */}
-                    <section className="recent-notes">
-                        <h2>Recent Notes</h2>
-                        <div className="note-item">
-                            <h3>Project Phoenix Kick-off Meeting</h3>
-                            <p className="note-meta">Edited 2 hours ago</p>
-                            <div className="tags">
-                                <span className="tag tag-project">#project</span>
-                                <span className="tag tag-meeting">#meeting</span>
-                            </div>
-                        </div>
-                    </section>
+                    
                 </main>
             </div>
         </div>
